@@ -5,6 +5,7 @@
 
     - To run ETL pipeline that cleans data and stores in database
         `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
+    - Download pkl file from kaggle:https://www.kaggle.com/rubylol/uda-l5-model , and put it in /models folder.  
     - To run ML pipeline that trains classifier and saves
         `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
 
@@ -31,7 +32,3 @@
 > > train_classifier.py # model training file  
 > > classifier.pkl  # saved model  
   
-### Classifier file
-
-https://www.kaggle.com/rubylol/uda-l5-model  
-Please download classifier.pkl file and put it under /models folder .
