@@ -16,10 +16,10 @@
 ### Files structure  
 > app  
 > > template  
+> > run.py  # Flask file that runs app  
 > > > master.html  # main page of web app  
 > > > go.html  # classification result page of web app  
 > > > reports.html  # additional data visualization based on dataset  
-> > run.py  # Flask file that runs app  
   
 > data  
 > > disaster_categories.csv  # data to process   
@@ -31,3 +31,7 @@
 > > train_classifier.py # model training file  
 > > classifier.pkl  # saved model  
   
+### Classifier file
+
+https://www.kaggle.com/rubylol/uda-l5-model  
+Please download classifier.pkl file and put it under /models folder .
