@@ -16,9 +16,9 @@
 ### Files structure
 > app
 > > template
-> > > master.html  # main page of web app
-> > > go.html  # classification result page of web app
-> > > reports.html  # additional data visualization based on dataset
+> > > master.html  # main page of web app  
+> > > go.html  # classification result page of web app  
+> > > reports.html  # additional data visualization based on dataset  
 > > run.py  # Flask file that runs app
 
 > data
