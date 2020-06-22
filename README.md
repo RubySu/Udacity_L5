@@ -13,20 +13,21 @@
 
 3. Go to http://0.0.0.0:3001/
 
-### Files structure
-> app
-> > template
+### Files structure  
+> app  
+> > template  
 > > > master.html  # main page of web app  
 > > > go.html  # classification result page of web app  
 > > > reports.html  # additional data visualization based on dataset  
-> > run.py  # Flask file that runs app
-
-> data
-> > disaster_categories.csv  # data to process 
-> > disaster_messages.csv  # data to process
-> > process_data.py
-> > DisasterResponse.db   # database to save clean data to
-
-> models
-> > train_classifier.py
-> > classifier.pkl  # saved model 
+> > run.py  # Flask file that runs app  
+  
+> data  
+> > disaster_categories.csv  # data to process   
+> > disaster_messages.csv  # data to process  
+> > process_data.py  #prepare data  
+> > DisasterResponse.db   # database to save clean data to  
+  
+> models  
+> > train_classifier.py # model training file  
+> > classifier.pkl  # saved model  
+  
